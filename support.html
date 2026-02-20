@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support — SteadyTow by Ballast</title>
+    
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚖️</text></svg>">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            600: '#0284c7',
+                            700: '#0369a1',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        details summary { cursor: pointer; }
+        details summary::-webkit-details-marker { display: none; }
+    </style>
+</head>
+<body class="bg-white text-gray-900 antialiased">
+
+    <!-- Navigation -->
+    <nav class="bg-white border-b border-gray-100">
+        <div class="max-w-4xl mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="/" class="text-xl font-bold text-brand-700">SteadyTow <span class="font-normal text-gray-400">by Ballast</span></a>
+            <a href="/" class="text-sm text-gray-600 hover:text-gray-900">← Back to Home</a>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="bg-gray-50 py-12 px-6">
+        <div class="max-w-3xl mx-auto text-center">
+            <h1 class="text-3xl font-bold text-gray-900 mb-4">How can we help?</h1>
+            <p class="text-lg text-gray-600">Find answers to common questions or get in touch with our support team.</p>
+        </div>
+    </section>
+
+    <!-- Contact Card -->
+    <section class="max-w-3xl mx-auto px-6 -mt-6">
+        <div class="bg-brand-700 text-white rounded-2xl p-8 shadow-lg">
+            <div class="flex flex-col sm:flex-row items-center justify-between gap-6">
+                <div>
+                    <h2 class="text-xl font-semibold mb-2">Contact Support</h2>
+                    <p class="text-blue-100">We typically respond within 1-2 business days.</p>
+                </div>
+                <a href="mailto:support@steadytow.app" class="inline-flex items-center bg-white text-brand-700 px-6 py-3 rounded-lg font-medium hover:bg-blue-50 transition">
+                    <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+                    </svg>
+                    support@steadytow.app
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <main class="max-w-3xl mx-auto px-6 py-12">
+        
+        <!-- General -->
+        <h2 class="text-xl font-bold text-gray-900 mb-6">General</h2>
+        <div class="space-y-4 mb-12">
+            <details class="group bg-gray-50 rounded-xl">
+                <summary class="flex items-center justify-between p-5 font-medium text-gray-900">
+                    What does SteadyTow do?
+                    <svg class="w-5 h-5 text-gray-500 group-open:rotate-180 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+                </summary>
+                <div class="px-5 pb-5 text-gray-600">
+                    SteadyTow calculates how your cargo affects your trailer's weight distribution, tongue weight, axle loads, and towing safety margins. It helps you identify overloading, poor weight distribution, and securement issues before you hit the road.
+                </div>
+            </details>
+
+            <details class="group bg-gray-50 rounded-xl">
+                <summary class="flex items-center justify-between p-5 font-medium text-gray-900">
+                    Is SteadyTow free?
+                    <svg class="w-5 h-5 text-gray-500 group-open:rotate-180 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+                </summary>
+                <div class="px-5 pb-5 text-gray-600">
+                    SteadyTow offers a 7-day free trial with full access to all features — no credit card required. After the trial, a subscription is required to continue using the app. Subscription plans and pricing are displayed in the app.
+                </div>
+            </details>
+
+            <details class="group bg-gray-50 rounded-xl">
+                <summary class="flex items-center justify-between p-5 font-medium text-gray-900">
+                    Does SteadyTow work offline?
+                    <svg class="w-5 h-5 text-gray-500 group-open:rotate-180 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+                </summary>
+                <div class="px-5 pb-5 text-gray-600">
+                    Yes. All calculations run entirely on your device. The only feature that requires an internet connection is VIN lookup, which queries the public NHTSA database to decode tow vehicle specifications.
+                </div>
+            </details>
+        </div>
+
+        <!-- Subscriptions -->
+        <h2 class="text-xl font-bold text-gray-900 mb-6">Subscriptions</h2>
+        <div class="space-y-4 mb-12">
+            <details class="group bg-gray-50 rounded-xl">
+                <summary class="flex items-center justify-between p-5 font-medium text-gray-900">
+                    How do I start using SteadyTow?
+                    <svg class="w-5 h-5 text-gray-500 group-open:rotate-180 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+                </summary>
+                <div class="px-5 pb-5 text-gray-600">
+                    Download the app and start your 7-day free trial immediately — no credit card required. You'll have full access to all features during the trial. When it ends, you can subscribe to continue using the app.
+                </div>
+            </details>
+
+            <details class="group bg-gray-50 rounded-xl">
+                <summary class="flex items-center justify-between p-5 font-medium text-gray-900">
+                    How do I cancel my subscription?
+                    <svg class="w-5 h-5 text-gray-500 group-open:rotate-180 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+                </summary>
+                <div class="px-5 pb-5 text-gray-600">
+                    <p class="mb-3">Go to <strong>Settings > [Your Name] > Subscriptions</strong> on your iPhone, find SteadyTow Pro, and tap "Cancel Subscription."</p>
+                    <p>You can also manage your subscription at <a href="https://apps.apple.com/account/subscriptions" class="text-brand-600 hover:underline">apps.apple.com/account/subscriptions</a>.</p>
+                    <p class="mt-3">Cancellation takes effect at the end of your current billing period.</p>
+                </div>
+            </details>
+
+            <details class="group bg-gray-50 rounded-xl">
+                <summary class="flex items-center justify-between p-5 font-medium text-gray-900">
+                    How do I restore my subscription on a new device?
+                    <svg class="w-5 h-5 text-gray-500 group-open:rotate-180 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+                </summary>
+                <div class="px-5 pb-5 text-gray-600">
+                    Open SteadyTow, go to the subscription screen, and tap "Restore Purchases." Your subscription is tied to your Apple ID and will restore automatically.
+                </div>
+            </details>
+
+            <details class="group bg-gray-50 rounded-xl">
+                <summary class="flex items-center justify-between p-5 font-medium text-gray-900">
+                    I subscribed but the app says my trial expired. What should I do?
+                    <svg class="w-5 h-5 text-gray-500 group-open:rotate-180 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+                </summary>
+                <div class="px-5 pb-5 text-gray-600">
+                    Try tapping "Restore Purchases" in the app first. If that doesn't work, contact us at <a href="mailto:support@steadytow.app" class="text-brand-600 hover:underline">support@steadytow.app</a> with your Apple ID email and approximate purchase date.
+                </div>
+            </details>
+        </div>
+
+        <!-- Data & Privacy -->
+        <h2 class="text-xl font-bold text-gray-900 mb-6">Data & Privacy</h2>
+        <div class="space-y-4 mb-12">
+            <details class="group bg-gray-50 rounded-xl">
+                <summary class="flex items-center justify-between p-5 font-medium text-gray-900">
+                    What data does SteadyTow collect?
+                    <svg class="w-5 h-5 text-gray-500 group-open:rotate-180 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+                </summary>
+                <div class="px-5 pb-5 text-gray-600">
+                    None. All your data (trailer specs, vehicle specs, cargo items, saved loads) is stored locally on your device only. We don't have accounts, servers, or analytics. See our full <a href="/privacy" class="text-brand-600 hover:underline">Privacy Policy</a>.
+                </div>
+            </details>
+
+            <details class="group bg-gray-50 rounded-xl">
+                <summary class="flex items-center justify-between p-5 font-medium text-gray-900">
+                    How do I delete my data?
+                    <svg class="w-5 h-5 text-gray-500 group-open:rotate-180 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+                </summary>
+                <div class="px-5 pb-5 text-gray-600">
+                    In the app, go to Settings > Clear All Cargo to remove saved load data. To delete everything, uninstall the app — all data is stored locally and will be removed.
+                </div>
+            </details>
+        </div>
+
+        <!-- Trailers & Vehicles -->
+        <h2 class="text-xl font-bold text-gray-900 mb-6">Trailers & Vehicles</h2>
+        <div class="space-y-4 mb-12">
+            <details class="group bg-gray-50 rounded-xl">
+                <summary class="flex items-center justify-between p-5 font-medium text-gray-900">
+                    What types of trailers does SteadyTow support?
+                    <svg class="w-5 h-5 text-gray-500 group-open:rotate-180 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+                </summary>
+                <div class="px-5 pb-5 text-gray-600">
+                    SteadyTow supports utility trailers, car haulers, flatbeds, enclosed trailers, travel trailers, and gooseneck trailers. You can configure single, tandem, or triple axle setups with bumper pull, gooseneck, or fifth wheel hitches.
+                </div>
+            </details>
+
+            <details class="group bg-gray-50 rounded-xl">
+                <summary class="flex items-center justify-between p-5 font-medium text-gray-900">
+                    How do I find my trailer's ratings?
+                    <svg class="w-5 h-5 text-gray-500 group-open:rotate-180 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+                </summary>
+                <div class="px-5 pb-5 text-gray-600">
+                    Look for a data plate (sticker or metal tag) on the tongue or frame of your trailer. It lists the GVWR (Gross Vehicle Weight Rating), GAWR (Gross Axle Weight Rating), and other specs. You can photograph it with your phone for reference.
+                </div>
+            </details>
+
+            <details class="group bg-gray-50 rounded-xl">
+                <summary class="flex items-center justify-between p-5 font-medium text-gray-900">
+                    How do I find my tow vehicle's ratings?
+                    <svg class="w-5 h-5 text-gray-500 group-open:rotate-180 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+                </summary>
+                <div class="px-5 pb-5 text-gray-600">
+                    Check the driver's side door jamb sticker, your owner's manual, or use SteadyTow's VIN lookup feature to automatically decode your vehicle's towing specifications.
+                </div>
+            </details>
+
+            <details class="group bg-gray-50 rounded-xl">
+                <summary class="flex items-center justify-between p-5 font-medium text-gray-900">
+                    Are the calculations accurate?
+                    <svg class="w-5 h-5 text-gray-500 group-open:rotate-180 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+                </summary>
+                <div class="px-5 pb-5 text-gray-600">
+                    SteadyTow uses physics-based moment balance calculations with industry-standard engineering methods. However, calculations are for informational purposes only and depend on the accuracy of the data you enter. Always verify weights with a scale when possible.
+                </div>
+            </details>
+        </div>
+
+        <!-- Troubleshooting -->
+        <h2 class="text-xl font-bold text-gray-900 mb-6">Troubleshooting</h2>
+        <div class="space-y-4 mb-12">
+            <details class="group bg-gray-50 rounded-xl">
+                <summary class="flex items-center justify-between p-5 font-medium text-gray-900">
+                    My cargo items disappeared.
+                    <svg class="w-5 h-5 text-gray-500 group-open:rotate-180 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+                </summary>
+                <div class="px-5 pb-5 text-gray-600">
+                    Check the staging area (right-edge drawer). Items that don't fit on the trailer bed are automatically staged. Tap the staging tab on the right edge of the visualization to see staged items.
+                </div>
+            </details>
+
+            <details class="group bg-gray-50 rounded-xl">
+                <summary class="flex items-center justify-between p-5 font-medium text-gray-900">
+                    I found a bug. How do I report it?
+                    <svg class="w-5 h-5 text-gray-500 group-open:rotate-180 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+                </summary>
+                <div class="px-5 pb-5 text-gray-600">
+                    Email us at <a href="mailto:support@steadytow.app" class="text-brand-600 hover:underline">support@steadytow.app</a> with a description of the issue, what you expected to happen, and any screenshots. Include your iOS version and device model if possible.
+                </div>
+            </details>
+        </div>
+
+        <!-- App Info -->
+        <div class="bg-gray-50 rounded-xl p-6 text-center">
+            <p class="text-gray-600 mb-2"><strong>SteadyTow</strong> by Ballast</p>
+            <p class="text-gray-500 text-sm">Requires iOS 17.0 or later</p>
+        </div>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-50 border-t border-gray-100 py-8 px-6 mt-8">
+        <div class="max-w-4xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-4 text-sm text-gray-500">
+            <p>© 2026 Neptune Industries, LLC</p>
+            <div class="flex gap-6">
+                <a href="/privacy" class="hover:text-gray-900">Privacy</a>
+                <a href="/terms" class="hover:text-gray-900">Terms</a>
+                <a href="/support" class="hover:text-gray-900">Support</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
